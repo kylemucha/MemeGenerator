@@ -33,14 +33,12 @@ export default function Main() {
     }
 
     function handleButton() {
-        let randomMeme = memeList[Math.floor(Math.random() * 100)]
-        randomMeme = randomMeme.url
+        let randomMeme = memeList[Math.floor(Math.random() * 100)].url
  
         setMeme(prevMeme => ({
             ...prevMeme,
             imageURL: randomMeme 
         }))
-
     }
 
     return (
