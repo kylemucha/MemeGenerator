@@ -15,15 +15,6 @@ export default function Main() {
         .then(data => setMemeList(data.data.memes))
     }, [])
 
-    /**
-     * Challenge: Get a random image from the array of
-     * allMemes when the user clicks the button. Once
-     * you've gotten a random image from the array, make
-     * sure to write the code that will display that
-     * random meme image to the page.
-     */
-
-
     function handleChange(event) {
         const { name, value } = event.currentTarget
         setMeme(prevMeme => ({
@@ -34,7 +25,7 @@ export default function Main() {
 
     function handleButton() {
         let randomMeme = memeList[Math.floor(Math.random() * 100)].url
- 
+
         setMeme(prevMeme => ({
             ...prevMeme,
             imageURL: randomMeme 
