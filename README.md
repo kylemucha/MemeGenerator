@@ -7,7 +7,7 @@ An interactive Web Application built using React that allows a user to randomly 
 
 
 
-# React Concepts Learned
+# React Concepts Learned ⚛︎
 
 - Controlled Components
   - This project utilizes controleld components since we wanted to update our state on every single keystroke of our input boxes. I also learned about the new ways React 19 is able to handle forms which are more intuitive than controlled components, but it is still useful in some cases.
