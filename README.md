@@ -15,8 +15,8 @@ An interactive Web Application built using React that allows a user to randomly 
 - Functional Programming
   - This project showed how React adopted functional programming and helped me understand why side effects happen when developing in React.
 
- - Fetching Data
-  - This project also introduced me to the concept of fetching data through the ImgFlip API.
+- Fetching Data
+  - This was my first time being able to fetch data through the ImgFlip API, pulling an array of objects that held the data of each meme that can display on the page.
 
 - Side Effects
   - I was able to learn about side effects in React such as being able to pull data from outside sources in React such as use of API's.
